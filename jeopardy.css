@@ -1,0 +1,80 @@
+body{
+  background-color: #060ce9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+#start-button{
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: yellow;
+}
+.game-contianer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+#gTitle{
+  background-color: rgb(13, 11, 13);
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+#jeopardy{
+  width: 100%;
+  height: auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+#jeopard th, #jeopardy td{
+  border: 1px black;
+  width: 15%;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+#jeopardy th {
+  background-color: teal;
+}
+#jeopardy td{
+  cursor: pointer;
+  background-color: rgb(18, 79, 79);
+}
+#reset{
+  display: block;
+  position: fixed;
+  bottom: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1 em;
+  cursor: pointer;
+  background-color: red;
+}
+
+/* some colors you may find useful:
+
+  #115ff4
+  #060ce9
+  #28a290
+  #8d2ab5
+  #74119c
+*/
